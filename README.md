@@ -9,7 +9,7 @@ Just learning the world of programming
 *   🌍  I'm based in Germany
 *   🚀  I'm currently working on [WebHelper](http://github.com/Robertwlt03/WebHelper)
 *   🧠  I'm learning Java Swing, JS, WebDesign
-*   ⚡  I go to the gym 5 days a week | if (haveTime == true) {task = "I go"}
+*   ⚡  if (haveTime == true) {task = "I go"}
 
 ### Skills 
 <p align="left">
