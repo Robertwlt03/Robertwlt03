@@ -24,7 +24,4 @@ Just learning the world of programming<br><br>
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Robertwlt03&limit=5&theme=merko&combine_all_yearly_contributions=true)
 
----
-[![](https://visitcount.itsvg.in/api?id=Robertwlt03&icon=1&color=3)](https://visitcount.itsvg.in)
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
