@@ -35,10 +35,6 @@ Just learning the world of programming<br><br>
 ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=flat&logo=powerbi&logoColor=black)
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Robertwlt03&theme=merko&hide_border=false&include_all_commits=true&count_private=false)<br/>
-
-![](https://nirzak-streak-stats.vercel.app/?user=Robertwlt03&theme=merko&hide_border=false)<br/>
-
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Robertwlt03&theme=merko&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ### ✍️ Random Dev Quote
