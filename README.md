@@ -3,9 +3,6 @@
 Just learning the world of programming<br><br>
 **Student**<br><br>
 🌍 I'm based in Germany<br>
-🚀 I'm currently working on LiveDox<br>
-🧠 I'm learning WebDesign<br>
-⚡ GYM: if (haveTime === true) {task = "I go"}
 
 
 ## 🌐 Socials:
