@@ -1,31 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Terminal: robert, junior developer at PC CADDIE">
-  <rect x="1" y="1" width="998" height="298" rx="12" fill="#f6f8fa" stroke="#d1d9e0"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 242" width="1000" height="242" role="img" aria-label="Terminal: Robert, Junior Developer at PC CADDIE">
+  <rect x="1" y="1" width="998" height="240" rx="12" fill="#f6f8fa" stroke="#d1d9e0"/>
   <line x1="1" y1="40" x2="999" y2="40" stroke="#d1d9e0"/>
   <circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>
   <text x="500" y="25" text-anchor="middle" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">robert@pccaddie: ~</text>
   <text x="32" y="82" fill="#1a7f37" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="10.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">$</text>
   <text x="53.6" y="82" fill="#1f2328" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="64.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">whoami</text>
   <rect x="52.6" y="64" width="66.8" height="24" fill="#f6f8fa"><animateTransform attributeName="transform" type="translate" values="0,0;10.8,0;21.6,0;32.4,0;43.2,0;54,0;64.8,0" calcMode="discrete" begin="0.30s" dur="0.42s" fill="freeze"/><set attributeName="visibility" to="hidden" begin="0.72s" fill="freeze"/></rect>
-  <text x="32" y="112" fill="#1f2328" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="302.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="0.92s" fill="freeze"/>robert · junior developer @ </text>
-  <text x="334.4" y="112" fill="#0969da" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="97.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="0.92s" fill="freeze"/>PC CADDIE</text>
+  <text x="32" y="112" fill="#1f2328" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="313.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="0.92s" fill="freeze"/>Robert · Junior Developer at </text>
+  <text x="345.2" y="112" fill="#0969da" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="97.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="0.92s" fill="freeze"/>PC CADDIE</text>
   <text x="32" y="152" fill="#1a7f37" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="10.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">$</text>
-  <text x="53.6" y="152" fill="#1f2328" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="140.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">cat likes.txt</text>
-  <rect x="52.6" y="134" width="142.4" height="24" fill="#f6f8fa"><animateTransform attributeName="transform" type="translate" values="0,0;10.8,0;21.6,0;32.4,0;43.2,0;54,0;64.8,0;75.6,0;86.4,0;97.2,0;108,0;118.8,0;129.6,0;140.4,0" calcMode="discrete" begin="1.32s" dur="0.91s" fill="freeze"/><set attributeName="visibility" to="hidden" begin="2.23s" fill="freeze"/></rect>
-  <text x="32" y="182" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="572.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="2.43s" fill="freeze"/>native apps · discord bots · trading · music · travel</text>
-  <text x="32" y="222" fill="#1a7f37" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="10.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">$</text>
-  <text x="53.6" y="222" fill="#1f2328" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="140.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">ls ~/projects</text>
-  <rect x="52.6" y="204" width="142.4" height="24" fill="#f6f8fa"><animateTransform attributeName="transform" type="translate" values="0,0;10.8,0;21.6,0;32.4,0;43.2,0;54,0;64.8,0;75.6,0;86.4,0;97.2,0;108,0;118.8,0;129.6,0;140.4,0" calcMode="discrete" begin="2.83s" dur="0.91s" fill="freeze"/><set attributeName="visibility" to="hidden" begin="3.74s" fill="freeze"/></rect>
-  <text x="32" y="252" fill="#0969da" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="270" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="3.94s" fill="freeze"/>storage-manager/    nexo/</text>
-  <text x="32" y="282" fill="#1a7f37" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="10.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="4.34s" fill="freeze"/>$</text>
-  <rect x="53.6" y="267" width="10" height="19" fill="#1f2328" opacity="0"><animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1s" begin="4.34s" repeatCount="indefinite"/></rect>
-  <line x1="760" y1="262" x2="960" y2="262" stroke="#d1d9e0" stroke-width="2" stroke-linecap="round"/>
-  <line x1="891" y1="262" x2="909" y2="262" stroke="#1f2328" stroke-width="4" stroke-linecap="round"/>
-  <line x1="900" y1="262" x2="900" y2="198" stroke="#59636e" stroke-width="2" stroke-linecap="round"/>
-  <path d="M900 198h26l-6 8 6 8h-26z" fill="#cf222e"/>
-  <circle cx="790" cy="256" r="5" fill="#ffffff" stroke="#1f2328" stroke-width="1" opacity="0">
+  <text x="53.6" y="152" fill="#1f2328" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="194.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">ls ~/side-projects</text>
+  <rect x="52.6" y="134" width="196.4" height="24" fill="#f6f8fa"><animateTransform attributeName="transform" type="translate" values="0,0;10.8,0;21.6,0;32.4,0;43.2,0;54,0;64.8,0;75.6,0;86.4,0;97.2,0;108,0;118.8,0;129.6,0;140.4,0;151.2,0;162,0;172.8,0;183.6,0;194.4,0" calcMode="discrete" begin="1.32s" dur="1.26s" fill="freeze"/><set attributeName="visibility" to="hidden" begin="2.58s" fill="freeze"/></rect>
+  <text x="32" y="182" fill="#0969da" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="270" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="2.78s" fill="freeze"/>storage-manager/    nexo/</text>
+  <text x="32" y="212" fill="#1a7f37" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="10.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="3.18s" fill="freeze"/>$</text>
+  <rect x="53.6" y="197" width="10" height="19" fill="#1f2328" opacity="0"><animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1s" begin="3.18s" repeatCount="indefinite"/></rect>
+  <line x1="760" y1="208" x2="960" y2="208" stroke="#d1d9e0" stroke-width="2" stroke-linecap="round"/>
+  <line x1="891" y1="208" x2="909" y2="208" stroke="#1f2328" stroke-width="4" stroke-linecap="round"/>
+  <line x1="900" y1="208" x2="900" y2="144" stroke="#59636e" stroke-width="2" stroke-linecap="round"/>
+  <path d="M900 144h26l-6 8 6 8h-26z" fill="#cf222e"/>
+  <circle cx="790" cy="202" r="5" fill="#ffffff" stroke="#1f2328" stroke-width="1" opacity="0">
     <animateTransform attributeName="transform" type="translate" values="0,0;110,0;110,8;110,8"
-      keyTimes="0;.55;.62;1" dur="5s" begin="4.64s" repeatCount="indefinite"/>
+      keyTimes="0;.55;.62;1" dur="5s" begin="3.48s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.58;.62;1"
-      dur="5s" begin="4.64s" repeatCount="indefinite"/>
+      dur="5s" begin="3.48s" repeatCount="indefinite"/>
   </circle>
 </svg>

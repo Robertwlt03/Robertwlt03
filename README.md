@@ -3,15 +3,6 @@
   <img alt="$ whoami → robert, junior developer @ PC CADDIE" src="assets/banner-light.svg" width="100%">
 </picture>
 
-<p align="center">
-  <samp>
-    <a href="#projects">projects</a> ·
-    <a href="#stack">stack</a> ·
-    <a href="mailto:robertwalter2003@proton.me">mail</a> ·
-    discord: robert_wlt
-  </samp>
-</p>
-
 ## <img src="assets/icons/about.svg" height="33" align="absmiddle" alt="">About
 
 Junior developer at <a href="https://www.pccaddie.de"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pc-caddie-dark.svg"><img alt="PC CADDIE" src="assets/pc-caddie-light.svg" align="absmiddle"></picture></a>, where I work on software for golf clubs. I studied computer science in a dual programme and have been working full-time since April 2026.
@@ -53,12 +44,16 @@ In my spare time I build things I want to use myself, like a macOS app that show
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Swift, TypeScript, PHP, Java, Python, React, Ionic, Symfony, Spring, Quarkus, PostgreSQL, Docker, Vite, discord.js" src="assets/stack-light.svg">
+  <img alt="Languages: Swift, TypeScript, PHP, Java, Python. Frameworks: React, Ionic, Symfony, Spring, Quarkus. Tools: PostgreSQL, Docker, Vite, discord.js" src="assets/stack-light.svg">
 </picture>
 
-## <img src="assets/icons/offline.svg" height="33" align="absmiddle" alt="">Off the clock
+## <img src="assets/icons/offline.svg" height="33" align="absmiddle" alt="">Outside of work
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/tags-hobbies-dark.svg">
   <img alt="Music and podcasts, travelling, series and anime, gaming, trading, Discord communities" src="assets/tags-hobbies-light.svg">
 </picture>
+
+## <img src="assets/icons/contact.svg" height="33" align="absmiddle" alt="">Contact
+
+<a href="mailto:robertwalter2003@proton.me"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-mail-dark.svg"><img alt="Mail: robertwalter2003@proton.me" src="assets/contact-mail-light.svg"></picture></a>&nbsp;<picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-discord-dark.svg"><img alt="Discord: robert_wlt" src="assets/contact-discord-light.svg"></picture>
