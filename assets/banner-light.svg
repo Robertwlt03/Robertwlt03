@@ -38,7 +38,7 @@
 
   <text x="32" y="152"><tspan class="p">$</tspan> cat likes.txt</text>
   <rect class="cur" x="52" y="134" width="143" height="26" style="--w:143px;animation:type .9s 1.5s steps(13) both"/>
-  <text class="show m" x="32" y="182" style="animation-delay:2.6s">native apps · discord bots · cs2 · music · travelling</text>
+  <text class="show m" x="32" y="182" style="animation-delay:2.6s">native apps · discord bots · trading · music · travel</text>
 
   <text x="32" y="222"><tspan class="p">$</tspan> ls ~/projects</text>
   <rect class="cur" x="52" y="204" width="143" height="26" style="--w:143px;animation:type .9s 3s steps(13) both"/>

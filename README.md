@@ -50,13 +50,13 @@ After work I build the tools I wish existed: a macOS app that finally explains w
 ### 🧰 Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=swift,ts,react,vite,discordjs,php,symfony,java,spring,python,postgres&theme=dark">
-  <img alt="Swift, TypeScript, React, Vite, discord.js, PHP, Symfony, Java, Spring, Python, PostgreSQL" src="https://skillicons.dev/icons?i=swift,ts,react,vite,discordjs,php,symfony,java,spring,python,postgres&theme=light">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=swift%2Cts%2Creact%2Cvite%2Cdiscordjs%2Cphp%2Csymfony%2Cjava%2Cspring%2Cpython%2Cpostgres&theme=dark">
+  <img alt="Swift, TypeScript, React, Vite, discord.js, PHP, Symfony, Java, Spring, Python, PostgreSQL" src="https://skillicons.dev/icons?i=swift%2Cts%2Creact%2Cvite%2Cdiscordjs%2Cphp%2Csymfony%2Cjava%2Cspring%2Cpython%2Cpostgres&theme=light">
 </picture>
 
 ### 🎧 Off the clock
 
-- 🎮 Gaming, mostly CS2, with one eye on the skin market
+- 🎮 Gaming
 - 📈 Trading and watching markets move
 - 💬 Building and running Discord communities
 - 🎶 Music and podcasts, always something on while coding
