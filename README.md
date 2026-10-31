@@ -16,10 +16,7 @@
 
 <p>
 <a href="https://www.pccaddie.de">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/pc-caddie-white.png">
-    <img alt="PC CADDIE" src="assets/pc-caddie.svg" width="200">
-  </picture>
+  <img alt="PC CADDIE" src="assets/pc-caddie.svg" width="200">
 </a>
 <br>
 </p>
