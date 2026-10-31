@@ -49,9 +49,11 @@ In my spare time I build things I want to use myself, like a macOS app that show
 
 ## <img src="assets/icons/stack.svg" height="33" align="absmiddle" alt="">Stack
 
+<sub>What I've been using lately.</sub>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=swift%2Cts%2Creact%2Cvite%2Cdiscordjs%2Cphp%2Csymfony%2Cjava%2Cspring%2Cpython%2Cpostgres&theme=dark">
-  <img alt="Swift, TypeScript, React, Vite, discord.js, PHP, Symfony, Java, Spring, Python, PostgreSQL" src="https://skillicons.dev/icons?i=swift%2Cts%2Creact%2Cvite%2Cdiscordjs%2Cphp%2Csymfony%2Cjava%2Cspring%2Cpython%2Cpostgres&theme=light">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Swift, TypeScript, PHP, Java, Python, React, Ionic, Symfony, Spring, Quarkus, PostgreSQL, Docker, Vite, discord.js" src="assets/stack-light.svg">
 </picture>
 
 ## <img src="assets/icons/offline.svg" height="33" align="absmiddle" alt="">Off the clock
