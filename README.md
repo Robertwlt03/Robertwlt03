@@ -14,14 +14,7 @@
 
 ## <img src="assets/icons/about.svg" height="33" align="absmiddle" alt="">About
 
-<p>
-<a href="https://www.pccaddie.de">
-  <img alt="PC CADDIE" src="assets/pc-caddie.svg" width="200">
-</a>
-<br>
-</p>
-
-Junior developer at PC CADDIE, where I work on software for golf clubs. I studied computer science in a dual programme and have been working full-time since April 2026.
+Junior developer at <a href="https://www.pccaddie.de"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pc-caddie-dark.svg"><img alt="PC CADDIE" src="assets/pc-caddie-light.svg" align="absmiddle"></picture></a>, where I work on software for golf clubs. I studied computer science in a dual programme and have been working full-time since April 2026.
 
 In my spare time I build things I want to use myself, like a macOS app that shows where your storage goes and a Discord bot you set up in the browser.
 
