@@ -1,56 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Terminal: whoami prints robert, junior developer at PC CADDIE">
-  <style>
-    svg{--bg:#f6f8fa;--bd:#d1d9e0;--fg:#1f2328;--mu:#59636e;--ok:#1a7f37;--ac:#0969da;--grass:#1a7f37;--flag:#cf222e;--ball:#ffffff;--hole:#1f2328}
-    text{font:18px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:var(--fg)}
-    .t{font-size:13px;fill:var(--mu)}
-    .p{fill:var(--ok)} .m{fill:var(--mu)} .a{fill:var(--ac)}
-    .win{fill:var(--bg);stroke:var(--bd)}
-    .bd{stroke:var(--bd)}
-    .cur{fill:var(--bg)}
-    .show{opacity:0;animation:show .01s forwards}
-    .caret{fill:var(--fg);opacity:0;animation:show .01s 4.3s forwards,blink 1s 4.3s step-end infinite}
-    .flag{fill:var(--flag);transform-origin:900px 188px;animation:wave 1.4s ease-in-out infinite alternate}
-    .ball{fill:var(--ball);stroke:var(--fg);stroke-width:1;opacity:0;animation:putt 5s 4.6s ease-out infinite}
-    @keyframes show{to{opacity:1}}
-    @keyframes blink{50%{opacity:0}}
-    @keyframes type{from{transform:translateX(0)}to{transform:translateX(var(--w))}}
-    @keyframes wave{to{transform:scaleX(.8) skewY(4deg)}}
-    @keyframes putt{
-      0%{opacity:0;transform:translate(0,0)}
-      6%{opacity:1}
-      55%{opacity:1;transform:translate(124px,0)}
-      62%{opacity:0;transform:translate(128px,6px)}
-      100%{opacity:0;transform:translate(128px,6px)}
-    }
-  </style>
-
-  <rect class="win" x="1" y="1" width="998" height="298" rx="12"/>
-  <line class="bd" x1="1" y1="40" x2="999" y2="40"/>
-  <circle cx="24" cy="20" r="6" fill="#ff5f57"/>
-  <circle cx="44" cy="20" r="6" fill="#febc2e"/>
-  <circle cx="64" cy="20" r="6" fill="#28c840"/>
-  <text class="t" x="500" y="25" text-anchor="middle">robert@pccaddie: ~</text>
-
-  <!-- commands are typed by sliding a background-coloured curtain off them, one character per step -->
-  <text x="32" y="82"><tspan class="p">$</tspan> whoami</text>
-  <rect class="cur" x="52" y="64" width="67" height="26" style="--w:67px;animation:type .6s .3s steps(6) both"/>
-  <text class="show" x="32" y="112" style="animation-delay:1.1s">robert — junior developer @ <tspan class="a">PC CADDIE</tspan> ⛳</text>
-
-  <text x="32" y="152"><tspan class="p">$</tspan> cat likes.txt</text>
-  <rect class="cur" x="52" y="134" width="143" height="26" style="--w:143px;animation:type .9s 1.5s steps(13) both"/>
-  <text class="show m" x="32" y="182" style="animation-delay:2.6s">native apps · discord bots · trading · music · travel</text>
-
-  <text x="32" y="222"><tspan class="p">$</tspan> ls ~/projects</text>
-  <rect class="cur" x="52" y="204" width="143" height="26" style="--w:143px;animation:type .9s 3s steps(13) both"/>
-  <text class="show a" x="32" y="252" style="animation-delay:4.1s">storage-manager/<tspan dx="32">nexo/</tspan></text>
-
-  <text x="32" y="282" class="show" style="animation-delay:4.3s"><tspan class="p">$</tspan></text>
-  <rect class="caret" x="54" y="267" width="11" height="20"/>
-
-  <!-- tiny putting green, because the day job is golf software -->
-  <ellipse cx="880" cy="262" rx="100" ry="16" style="fill:var(--grass)" opacity=".18"/>
-  <ellipse cx="900" cy="262" rx="11" ry="3.5" style="fill:var(--hole)"/>
-  <line x1="900" y1="262" x2="900" y2="178" style="stroke:var(--mu)" stroke-width="2.5" stroke-linecap="round"/>
-  <path class="flag" d="M900 178 L938 188 L900 198 Z"/>
-  <circle class="ball" cx="776" cy="256" r="6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Terminal: robert, junior developer at PC CADDIE">
+  <rect x="1" y="1" width="998" height="298" rx="12" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <line x1="1" y1="40" x2="999" y2="40" stroke="#d1d9e0"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <text x="500" y="25" text-anchor="middle" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">robert@pccaddie: ~</text>
+  <text x="32" y="82" fill="#1a7f37" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="10.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">$</text>
+  <text x="53.6" y="82" fill="#1f2328" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="64.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">whoami</text>
+  <rect x="52.6" y="64" width="66.8" height="24" fill="#f6f8fa"><animateTransform attributeName="transform" type="translate" values="0,0;10.8,0;21.6,0;32.4,0;43.2,0;54,0;64.8,0" calcMode="discrete" begin="0.30s" dur="0.42s" fill="freeze"/><set attributeName="visibility" to="hidden" begin="0.72s" fill="freeze"/></rect>
+  <text x="32" y="112" fill="#1f2328" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="302.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="0.92s" fill="freeze"/>robert · junior developer @ </text>
+  <text x="334.4" y="112" fill="#0969da" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="97.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="0.92s" fill="freeze"/>PC CADDIE</text>
+  <text x="32" y="152" fill="#1a7f37" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="10.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">$</text>
+  <text x="53.6" y="152" fill="#1f2328" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="140.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">cat likes.txt</text>
+  <rect x="52.6" y="134" width="142.4" height="24" fill="#f6f8fa"><animateTransform attributeName="transform" type="translate" values="0,0;10.8,0;21.6,0;32.4,0;43.2,0;54,0;64.8,0;75.6,0;86.4,0;97.2,0;108,0;118.8,0;129.6,0;140.4,0" calcMode="discrete" begin="1.32s" dur="0.91s" fill="freeze"/><set attributeName="visibility" to="hidden" begin="2.23s" fill="freeze"/></rect>
+  <text x="32" y="182" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="572.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="2.43s" fill="freeze"/>native apps · discord bots · trading · music · travel</text>
+  <text x="32" y="222" fill="#1a7f37" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="10.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">$</text>
+  <text x="53.6" y="222" fill="#1f2328" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="140.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">ls ~/projects</text>
+  <rect x="52.6" y="204" width="142.4" height="24" fill="#f6f8fa"><animateTransform attributeName="transform" type="translate" values="0,0;10.8,0;21.6,0;32.4,0;43.2,0;54,0;64.8,0;75.6,0;86.4,0;97.2,0;108,0;118.8,0;129.6,0;140.4,0" calcMode="discrete" begin="2.83s" dur="0.91s" fill="freeze"/><set attributeName="visibility" to="hidden" begin="3.74s" fill="freeze"/></rect>
+  <text x="32" y="252" fill="#0969da" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="270" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="3.94s" fill="freeze"/>storage-manager/    nexo/</text>
+  <text x="32" y="282" fill="#1a7f37" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" textLength="10.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" opacity="0"><set attributeName="opacity" to="1" begin="4.34s" fill="freeze"/>$</text>
+  <rect x="53.6" y="267" width="10" height="19" fill="#1f2328" opacity="0"><animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1s" begin="4.34s" repeatCount="indefinite"/></rect>
+  <line x1="760" y1="262" x2="960" y2="262" stroke="#d1d9e0" stroke-width="2" stroke-linecap="round"/>
+  <line x1="891" y1="262" x2="909" y2="262" stroke="#1f2328" stroke-width="4" stroke-linecap="round"/>
+  <line x1="900" y1="262" x2="900" y2="198" stroke="#59636e" stroke-width="2" stroke-linecap="round"/>
+  <path d="M900 198h26l-6 8 6 8h-26z" fill="#cf222e"/>
+  <circle cx="790" cy="256" r="5" fill="#ffffff" stroke="#1f2328" stroke-width="1" opacity="0">
+    <animateTransform attributeName="transform" type="translate" values="0,0;110,0;110,8;110,8"
+      keyTimes="0;.55;.62;1" dur="5s" begin="4.64s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.58;.62;1"
+      dur="5s" begin="4.64s" repeatCount="indefinite"/>
+  </circle>
 </svg>
