@@ -1,0 +1,26 @@
+{
+  "apps": [
+    {"name": "storage-manager", "glyph": "pie", "languages": ["Swift"], "status": "rebuilding",
+     "text": "See at a glance where the storage on your Mac goes."},
+    {"name": "nexo-bot", "glyph": "discord", "languages": ["TypeScript"], "status": "rebuilding",
+     "text": "A Discord bot for moderation, levels and giveaways, set up in the browser."},
+    {"name": "claude-skills", "glyph": "spark", "languages": ["Markdown", "JavaScript"], "status": "rebuilding",
+     "text": "Skills for Claude, built one at a time."}
+  ],
+  "libraries": [
+    {"name": "check-pipeline", "languages": ["Python"], "status": "v0.1.0",
+     "text": "Every check of a project in one command."},
+    {"name": "markdown-graphics", "languages": ["Python"], "status": "v0.1.0",
+     "text": "Banners, icons and pictures for Markdown."},
+    {"name": "console-look", "languages": ["Python", "Swift"], "status": "v0.1.0",
+     "text": "One look for terminal output."},
+    {"name": "swift-app-bundler", "languages": ["Python"], "status": "v0.1.0",
+     "text": "From a Swift package to a signed Mac app."},
+    {"name": "swiftui-sunburst", "languages": ["Swift"], "status": "v0.1.0",
+     "text": "A tree as rings, for SwiftUI on macOS and iOS."},
+    {"name": "file-tree-kit", "languages": ["Swift"], "status": "v0.1.0",
+     "text": "Walk a file tree fast and find duplicates."},
+    {"name": "index-store-reader", "languages": ["Python"], "status": "v0.1.0",
+     "text": "Reads the Swift compiler's index from Python."}
+  ]
+}

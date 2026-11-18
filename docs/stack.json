@@ -1,0 +1,24 @@
+{
+  "Languages": {
+    "Swift": "https://www.swift.org",
+    "TypeScript": "https://www.typescriptlang.org",
+    "PHP": "https://www.php.net",
+    "Java": "https://dev.java",
+    "Python": "https://www.python.org",
+    "JavaScript": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "Shell": "https://www.gnu.org/software/bash/"
+  },
+  "Frameworks": {
+    "React": "https://react.dev",
+    "Ionic": "https://ionicframework.com",
+    "Symfony": "https://symfony.com",
+    "Spring": "https://spring.io",
+    "Quarkus": "https://quarkus.io"
+  },
+  "Tools": {
+    "PostgreSQL": "https://www.postgresql.org",
+    "Docker": "https://www.docker.com",
+    "Vite": "https://vite.dev",
+    "discord.js": "https://discord.js.org"
+  }
+}

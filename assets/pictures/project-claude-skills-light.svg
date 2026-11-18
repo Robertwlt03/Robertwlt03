@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="100" viewBox="0 0 900 100" role="img" aria-label="claude-skills: Skills for Claude, built one at a time. Built with Markdown, JavaScript; rebuilding.">
+<g transform="translate(0 0)">
+<rect x=".5" y=".5" width="899" height="99" rx="14" fill="none" stroke="#D2D2D7"/>
+<text x="86" y="50" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#1D1D1F" text-anchor="start" xml:space="preserve">claude-skills</text>
+<rect x="22" y="22" width="48" height="48" rx="12" fill="#E8EEFB"/><g transform="translate(31.6 31.6) scale(1.2)" fill="none" stroke="#1F52DB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v6M12 15v6M3 12h6M15 12h6M5.6 5.6l4.2 4.2M14.2 14.2l4.2 4.2M18.4 5.6l-4.2 4.2M9.8 14.2l-4.2 4.2"/></g>
+<text x="86" y="76" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#6E6E73" text-anchor="start" xml:space="preserve">Skills for Claude, built one at a time.</text>
+<rect x="800.9" y="34" width="77.1" height="22" rx="11" fill="#F5F5F7"/>
+<text x="839.44" y="49.5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#6E6E73" text-anchor="middle" xml:space="preserve">rebuilding</text>
+<circle cx="625.1" cy="44.5" r="5" fill="#083FA1"/>
+<text x="634.13" y="49" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#6E6E73" text-anchor="start" textLength="62.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Markdown</text>
+<circle cx="715.1" cy="44.5" r="5" fill="#F1E05A"/>
+<text x="724.13" y="49" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#6E6E73" text-anchor="start" textLength="62.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve">JavaScript</text>
+</g>
+</svg>

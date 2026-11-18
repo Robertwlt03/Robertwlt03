@@ -1,0 +1,45 @@
+# Runs the profile's checks with check-pipeline on every pull request and on main: links,
+# secrets, workflows and texts, and makes sure the pictures match their descriptions.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# The jobs only read the code; GitHub's token gets no right to change anything.
+permissions:
+  contents: read
+
+# A newer push replaces the run of an older one.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# Actions are pinned to a commit, which nobody can move; Dependabot proposes newer ones.
+jobs:
+  checks:
+    name: Checks and pictures
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          fetch-depth: 0  # the commits step compares with the base branch
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: "3.14"
+      - name: Install check-pipeline and markdown-graphics
+        run: |
+          python -m pip install "git+https://github.com/Robertwlt03/check-pipeline@v0.1.0"
+          python -m pip install "git+https://github.com/Robertwlt03/markdown-graphics@v0.2.0"
+      - name: check-pipeline
+        run: check-pipeline
+      # git status also sees pictures that were never committed, which git diff would miss.
+      - name: The pictures are current
+        run: |
+          markdown-graphics pictures
+          python scripts/pictures.py
+          git status --porcelain -- assets/pictures README.md
+          test -z "$(git status --porcelain -- assets/pictures README.md)"

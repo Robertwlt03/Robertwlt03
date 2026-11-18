@@ -1,0 +1,17 @@
+# The checks of the profile, with check-pipeline; CI runs the same ones.
+name = "Robertwlt03"
+steps = [
+    "secrets", "security", "nesting", "duplicates", "deadscripts", "scripts", "guides", "files",
+    "english", "language", "commits",
+]
+
+[scripts]
+head = "Start:"
+
+[language]
+terms = ["robertwlt", "pccaddie"]
+
+[files]
+# The stack's icons, which scripts/pictures.py embeds by name, and the phone intro's light and dark
+# drawings, which it joins into intro-phone.svg.
+exclude = ["assets/stack/**", "assets/pictures/intro-phone-*.svg"]

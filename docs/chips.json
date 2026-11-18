@@ -1,0 +1,18 @@
+{
+  "hobbies": [
+    {"glyph": "headphones", "text": "Music and podcasts"},
+    {"glyph": "plane", "text": "Travelling"},
+    {"glyph": "tv", "text": "Series and anime"},
+    {"glyph": "gamepad", "text": "Gaming"},
+    {"glyph": "trend", "text": "Trading"},
+    {"glyph": "discord", "text": "Discord communities"}
+  ],
+  "contact": [
+    {"glyph": "mail", "label": "Mail", "text": "robertwalter2003@proton.me",
+     "link": "mailto:robertwalter2003@proton.me"},
+    {"glyph": "discord", "label": "Discord", "text": "robert_wlt",
+     "link": "https://discord.com/users/566171890339545090"},
+    {"glyph": "instagram", "label": "Instagram", "text": "robert_wlt03",
+     "link": "https://www.instagram.com/robert_wlt03/"}
+  ]
+}

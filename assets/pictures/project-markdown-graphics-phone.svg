@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="172" height="137" viewBox="0 0 172 137" role="img" aria-label="markdown-graphics: Banners, icons and pictures for Markdown. Built with Python; v0.1.0."><style>.dark{display:none}@media (prefers-color-scheme: dark){.light{display:none}.dark{display:inline}}</style><g class="light">
+<g transform="translate(6 0)">
+<rect x=".5" y=".5" width="165" height="136" rx="10" fill="none" stroke="#D2D2D7"/>
+<text x="12" y="25" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#1D1D1F" text-anchor="start" xml:space="preserve">markdown-graphics</text>
+<text x="12" y="72" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#6E6E73" text-anchor="start" xml:space="preserve">Banners, icons and</text>
+<text x="12" y="87" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#6E6E73" text-anchor="start" xml:space="preserve">pictures for Markdown.</text>
+<rect x="12.0" y="33" width="55.5" height="22" rx="11" fill="#E8EEFB"/>
+<text x="39.76" y="48.5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1F52DB" text-anchor="middle" xml:space="preserve">v0.1.0</text>
+<circle cx="17.0" cy="118.5" r="5" fill="#3572A5"/>
+<text x="26" y="123" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#6E6E73" text-anchor="start" textLength="40.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Python</text>
+</g>
+</g><g class="dark">
+<g transform="translate(6 0)">
+<rect x=".5" y=".5" width="165" height="136" rx="10" fill="none" stroke="#3A3A3C"/>
+<text x="12" y="25" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#F5F5F7" text-anchor="start" xml:space="preserve">markdown-graphics</text>
+<text x="12" y="72" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#A1A1A6" text-anchor="start" xml:space="preserve">Banners, icons and</text>
+<text x="12" y="87" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#A1A1A6" text-anchor="start" xml:space="preserve">pictures for Markdown.</text>
+<rect x="12.0" y="33" width="55.5" height="22" rx="11" fill="#1F2A44"/>
+<text x="39.76" y="48.5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8DB8FF" text-anchor="middle" xml:space="preserve">v0.1.0</text>
+<circle cx="17.0" cy="118.5" r="5" fill="#3572A5"/>
+<text x="26" y="123" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#A1A1A6" text-anchor="start" textLength="40.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Python</text>
+</g>
+</g></svg>

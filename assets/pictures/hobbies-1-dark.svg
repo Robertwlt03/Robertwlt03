@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="183.66" height="32" viewBox="0 0 183.66 32" role="img" aria-label="Music and podcasts">
+<rect width="183.7" height="32" rx="16" fill="#1F2A44"/>
+<g transform="translate(12 8) scale(0.666667)" fill="none" stroke="#8DB8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3.5" y="14" width="4" height="6.5" rx="1.5"/><rect x="16.5" y="14" width="4" height="6.5" rx="1.5"/></g>
+<text x="36" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#8DB8FF" text-anchor="start" textLength="135.7" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Music and podcasts</text>
+</svg>

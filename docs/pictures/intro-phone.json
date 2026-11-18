@@ -1,0 +1,3 @@
+{"kind": "terminal", "width": 400, "title": "robert@macbook: ~", "label": "Terminal: whoami prints robert; cat now.txt prints: building the tools I want to use myself, in the open",
+ "lines": [["command", "whoami"], ["output", "robert"],
+  ["command", "cat now.txt"], ["result", "building the tools I want to use"], ["result", "myself, in the open"]]}

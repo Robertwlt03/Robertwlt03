@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="100" viewBox="0 0 900 100" role="img" aria-label="storage-manager: See at a glance where the storage on your Mac goes. Built with Swift; rebuilding.">
+<g transform="translate(0 0)">
+<rect x=".5" y=".5" width="899" height="99" rx="14" fill="none" stroke="#3A3A3C"/>
+<text x="86" y="50" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#F5F5F7" text-anchor="start" xml:space="preserve">storage-manager</text>
+<rect x="22" y="22" width="48" height="48" rx="12" fill="#1F2A44"/><g transform="translate(31.6 31.6) scale(1.2)" fill="none" stroke="#8DB8FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4.5a7.5 7.5 0 1 0 7.5 7.5H11z"/><path d="M14 2.5a7.5 7.5 0 0 1 7.5 7.5H14z"/></g>
+<text x="86" y="76" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#A1A1A6" text-anchor="start" xml:space="preserve">See at a glance where the storage on your Mac goes.</text>
+<rect x="800.9" y="34" width="77.1" height="22" rx="11" fill="#2C2C2E"/>
+<text x="839.44" y="49.5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#A1A1A6" text-anchor="middle" xml:space="preserve">rebuilding</text>
+<circle cx="747.8" cy="44.5" r="5" fill="#F05138"/>
+<text x="756.755" y="49" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#A1A1A6" text-anchor="start" textLength="30.1" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Swift</text>
+</g>
+</svg>
