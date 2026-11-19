@@ -1,15 +1,18 @@
 <picture>
   <source media="(max-width: 500px)" srcset="assets/pictures/intro-phone.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/pictures/intro-dark.svg">
-  <img alt="Terminal: whoami prints Robert, Junior Developer at PC CADDIE; ls ~/side-projects lists storage-manager, nexo-bot and claude-skills" src="assets/pictures/intro-light.svg" width="100%">
+  <img alt="Terminal: whoami prints Robert Walter; ls ~/side-projects lists storage-manager, nexo-bot and claude-skills" src="assets/pictures/intro-light.svg" width="100%">
 </picture>
 
 ## <img src="assets/icons/about.svg" height="33" align="absmiddle" alt="">About
 
 Junior developer at&nbsp; <a href="https://www.pccaddie.de"><img alt="PC CADDIE" src="assets/pc-caddie.svg" height="22" align="absmiddle"></a>
 
-I work on software for golf clubs. I studied computer science in a dual study program and have been working full-time since
-April 2026.
+There I work on the software that golf clubs run their day on. I studied computer science in a dual study program,
+switching between lectures and real projects at the company, and have been working there full-time since April 2026.
+
+After work I build the tools I want to use myself, and I share the parts that other projects can use too: small open-source
+libraries, each with its own tests, checks and releases, so they stay easy to pick up and easy to trust.
 
 ## <img src="assets/icons/projects.svg" height="33" align="absmiddle" alt="">Projects
 

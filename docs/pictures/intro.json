@@ -1,4 +1,4 @@
-{"kind": "terminal", "title": "robert@macbook: ~", "label": "Terminal: whoami prints Robert, Junior Developer at PC CADDIE; ls ~/side-projects lists storage-manager, nexo-bot and claude-skills",
- "lines": [["command", "whoami"], ["output", ["Robert · Junior Developer at ", ["accent", "PC CADDIE"]]],
+{"kind": "terminal", "title": "robert@macbook: ~", "label": "Terminal: whoami prints Robert Walter; ls ~/side-projects lists storage-manager, nexo-bot and claude-skills",
+ "lines": [["command", "whoami"], ["output", "Robert Walter"],
   ["command", "ls ~/side-projects"], ["output", [["accent", "storage-manager/  nexo-bot/  claude-skills/"]]],
   ["cursor", ""]]}
