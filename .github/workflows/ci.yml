@@ -33,7 +33,7 @@ jobs:
       - name: Install check-pipeline and markdown-graphics
         run: |
           python -m pip install "git+https://github.com/Robertwlt03/check-pipeline@v0.1.0"
-          python -m pip install "git+https://github.com/Robertwlt03/markdown-graphics@v0.2.0"
+          python -m pip install "git+https://github.com/Robertwlt03/markdown-graphics@v0.3.0"
       - name: check-pipeline
         run: check-pipeline
       # git status also sees pictures that were never committed, which git diff would miss.

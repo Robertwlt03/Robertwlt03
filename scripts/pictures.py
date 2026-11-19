@@ -63,7 +63,12 @@ PHONE = "(max-width: 500px)"  # the screens that get the phone pictures
 PHONE_PICTURES = ["intro"]  # drawn by markdown-graphics from <name>-phone.json, light and dark
 CHIP_HEIGHT, CHIP_SIZE, LANGUAGE_SIZE = 22, 12, 12.5
 # The stack: a row title's picture, an icon, and an icon's picture with its name below it.
-TITLE_WIDTH, TITLE_HEIGHT, STACK_ICON, STACK_STEP, STACK_HEIGHT = 124, 26, 44, 84, 68
+TITLE_WIDTH, TITLE_HEIGHT, STACK_ICON, STACK_STEP, STACK_HEIGHT = 124, 34, 44, 84, 68
+# GitHub's README is 712 pixels wide, enough for the longest row with its title beside it, from a
+# window of 1146 pixels on (measured on the profile page: below, the sidebar or the phone's margins
+# take the room), so wider windows show the titles beside the rows and narrower ones above them.
+BESIDE, ABOVE = "(min-width: 1150px)", "(max-width: 1149px)"
+BLANK = "blank.svg"  # one transparent pixel, which a title shows where it is not wanted
 # GitHub's own colors for the languages (github-linguist), for the dots on the project cards.
 COLORS = {
     "Swift": "#F05138", "Python": "#3572A5", "TypeScript": "#3178C6", "JavaScript": "#F1E05A",
@@ -141,10 +146,10 @@ def slug(name: str) -> str:
     return re.sub(r"[^a-z0-9]", "", name.lower())
 
 
-def stack_title(title: str, theme: str) -> str:
-    """A row's title, on its own line above the row's icons."""
-    return svg(TITLE_WIDTH, TITLE_HEIGHT, title,
-               [text(0, 18, title, 14, THEMES[theme]["muted"], 600)])
+def stack_title(title: str, height: float, baseline: float, theme: str) -> str:
+    """A row's title: on a line of its own above the row, or as high as its icons beside them."""
+    return svg(TITLE_WIDTH, height, title,
+               [text(0, baseline, title, 14, THEMES[theme]["muted"], 600)])
 
 
 def stack_item(name: str, theme: str) -> str:
@@ -286,13 +291,14 @@ def save_phone(name: str, draw, *details) -> None:
 # MARK: Markdown
 
 
-def picture(name: str, alt: str, width: str = "", phone: bool = False) -> str:
-    """A picture GitHub shows light or dark, as the reader's page is, and with `phone` its
-    <name>-phone.svg on a phone; without a width, at its own size."""
+def picture(name: str, alt: str, width: str = "", screens: tuple = ()) -> str:
+    """A picture GitHub shows light or dark, as the reader's page is; without a width, at its own
+    size. `screens` are (condition, file) pairs that come first: a screen that meets one shows that
+    file, whatever the theme, as GitHub rewrites only the conditions that name a color scheme."""
     sized = f' width="{width}"' if width else ""
-    phone_source = (f'<source media="{PHONE}" srcset="{OUT.as_posix()}/{name}-phone.svg">'
-                    if phone else "")
-    return (f'<picture>{phone_source}<source media="(prefers-color-scheme: dark)" '
+    first = "".join(f'<source media="{condition}" srcset="{OUT.as_posix()}/{file}">'
+                    for condition, file in screens)
+    return (f'<picture>{first}<source media="(prefers-color-scheme: dark)" '
             f'srcset="{OUT.as_posix()}/{name}-dark.svg"><img alt="{escape(alt)}" '
             f'src="{OUT.as_posix()}/{name}-light.svg"{sized}></picture>')
 
@@ -308,20 +314,21 @@ def pills_markdown(group: str, items: list[dict]) -> str:
 def cards_markdown(projects: list[dict], look: dict) -> list[str]:
     """Every card as a link to its repository, `per_row` of them to a paragraph, with nothing
     between them: their pictures hold the gap, and a space would push the second one down."""
-    step = look["per_row"]
-    links = [f'<a href="https://github.com/{OWNER}/{project["name"]}">'
-             f'{picture(f"project-{project["name"]}", alt_of(project), f"{100 // step}%", True)}'
-             '</a>'
-             for project in projects]
+    step, links = look["per_row"], []
+    for project in projects:
+        name = f"project-{project['name']}"
+        shown = picture(name, alt_of(project), f"{100 // step}%", ((PHONE, f"{name}-phone.svg"),))
+        links.append(f'<a href="https://github.com/{OWNER}/{project["name"]}">{shown}</a>')
     return ["".join(links[start:start + step]) for start in range(0, len(links), step)]
 
 
 def stack_markdown(rows: dict) -> str:
-    """Each row a paragraph: its title on a line of its own, below it its icons, each a link to its
-    homepage. Nothing stands between the icons and all are as wide, so on a narrow page they wrap
-    into the same columns, like a grid."""
-    return "\n\n".join(
-        picture(f"stack-row-{slug(title)}", title) + "<br>"
+    """Each row its title on a line of its own, then its title again beside its icons, each icon a
+    link to its homepage; on a wide window the first title is blank, on a narrow one the second,
+    so the rows read like a table where they fit and wrap into the same columns where not."""
+    return "<br>".join(
+        picture(f"stack-above-{slug(title)}", title, screens=((BESIDE, BLANK),)) + "<br>"
+        + picture(f"stack-beside-{slug(title)}", "", screens=((ABOVE, BLANK),))
         + "".join(f'<a href="{escape(link)}">{picture(f"stack-{slug(name)}", name)}</a>'
                   for name, link in links.items())
         for title, links in rows.items())
@@ -371,8 +378,10 @@ def main() -> None:
     for group, items in chips.items():
         for number, item in enumerate(items, 1):  # by place, as two pills may share a glyph
             save(f"{group}-{number}", pill, item)
+    (OUT / BLANK).write_text('<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1"/>\n')
     for title, links in rows.items():
-        save(f"stack-row-{slug(title)}", stack_title, title)
+        save(f"stack-above-{slug(title)}", stack_title, title, TITLE_HEIGHT, 26)
+        save(f"stack-beside-{slug(title)}", stack_title, title, STACK_HEIGHT, 27)
         for name in links:
             save(f"stack-{slug(name)}", stack_item, name)
     README.write_text(readme)

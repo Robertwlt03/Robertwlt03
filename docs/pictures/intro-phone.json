@@ -1,3 +1,4 @@
-{"kind": "terminal", "width": 400, "title": "robert@macbook: ~", "label": "Terminal: whoami prints robert; cat now.txt prints: building the tools I want to use myself, in the open",
- "lines": [["command", "whoami"], ["output", "robert"],
-  ["command", "cat now.txt"], ["result", "building the tools I want to use"], ["result", "myself, in the open"]]}
+{"kind": "terminal", "width": 400, "title": "robert@macbook: ~", "label": "Terminal: whoami prints Robert, Junior Developer at PC CADDIE; ls ~/side-projects lists storage-manager, nexo-bot and claude-skills",
+ "lines": [["command", "whoami"], ["output", "Robert · Junior Developer"], ["output", ["at ", ["accent", "PC CADDIE"]]],
+  ["command", "ls ~/side-projects"], ["output", [["accent", "storage-manager/  nexo-bot/"]]],
+  ["output", [["accent", "claude-skills/"]]], ["cursor", ""]]}
